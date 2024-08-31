@@ -11,7 +11,6 @@ Prerequisites:
 
 1. **Create and Start Linux VM**
 Your manager has assigned you the task to create a Linux virtual machine and install a web server inside it, all using automation.
-
   - Create a new directory for your project.
   - Inside the directory, initialize a Vagrant project.
   - Configure the `Vagrantfile` to provision a Linux virtual machine (Ubuntu 20.04 or similar).
