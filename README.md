@@ -12,32 +12,32 @@ Prerequisites:
 1.  **Create and Start Linux VM**
    Your manager has assigned you the task to create a Linux virtual machine and install a web server inside it, all using automation.
     -  Create a new directory for your project.
-  - Inside the directory, initialize a Vagrant project.
-  - Configure the `Vagrantfile` to provision a Linux virtual machine (Ubuntu 20.04 or similar).
-  - Configure the VM name, network ip etc.
-  - Ensure the VM has at least `512MB` of RAM and `1 CPU`.
+    -  Inside the directory, initialize a Vagrant project.
+    -  Configure the `Vagrantfile` to provision a Linux virtual machine (Ubuntu 20.04 or similar).
+    -  Configure the VM name, network ip etc.
+    -  Ensure the VM has at least `512MB` of RAM and `1 CPU`.
 
 2.  **Install Apache Server and Deploy the Static Website:**
-   -  Write a Bash script to install Apache on the VM.
-   -  Ensure Apache is set to start on boot.
-   -  Your script should check if there is directory `website`, Copy the provided static website files from your local machine to the Apache web root directory on the VM `(/var/www/html)`.
-   -  Ensure the website is accessible via the VM’s IP address.
-   -  Display neccessary log messages and time during provisioning
+    - Write a Bash script to install Apache on the VM.
+    - Ensure Apache is set to start on boot.
+    - Your script should check if there is directory `website`, Copy the provided static website files from your local machine to the Apache web root directory on the VM `(/var/www/html)`.
+    - Ensure the website is accessible via the VM’s IP address.
+    - Display neccessary log messages and time during provisioning
 
 3. **Prepare Website Files**
-  - Download and unzip a website template [here](https://www.tooplate.com/view/2119-gymso-fitness)
-  - Create a new directory website in your project directory
-  - Add all content of the downloaded file to this directory
+    - Download and unzip a website template [here](https://www.tooplate.com/view/2119-gymso-fitness)
+    - Create a new directory website in your project directory
+    - Add all content of the downloaded file to this directory
 
 4. **Test the Deployment:**
-  - Access the website from your host machine’s browser using the VM’s IP address.
-  - Ensure that all website assets (images, CSS, JS) load correctly.
+   - Access the website from your host machine’s browser using the VM’s IP address.
+   - Ensure that all website assets (images, CSS, JS) load correctly.
 
 5. **Version Control and Submission:**
-  - Initialize a Git repository in your project directory.
-  - Commit all relevant files (Vagrantfile, Bash script, website files).
-  - Push your project to a GitHub repository.
-  - Share the GitHub repository link as your submission on the `LMS portal`.
+   - Initialize a Git repository in your project directory.
+   - Commit all relevant files (Vagrantfile, Bash script, website files).
+   - Push your project to a GitHub repository.
+   - Share the GitHub repository link as your submission on the `LMS portal`.
 
 ## Evaluation Criteria:
 * Correctness: The website should be correctly deployed and accessible.
