@@ -43,5 +43,5 @@ Prerequisites:
 * Correctness: The website should be correctly deployed and accessible.
 * Automation: The deployment process should be fully automated by the Bash script.
 * Code Quality: Proper use of Vagrant, Bash scripting, and Git version control.
-* Documentation: Clear `README.md` file explaining the steps you followed, any assumptions made, and how to access the website.
+* Documentation: Clear `README.md` file and `screenshot` where neccessary explaining the steps you followed, any assumptions made, and how to access the website.
 
