@@ -9,20 +9,20 @@ Prerequisites:
 * Git and GitHub account for submission
 
 
-1. **Create and Start Linux VM**
-Your manager has assigned you the task to create a Linux virtual machine and install a web server inside it, all using automation.
-  - Create a new directory for your project.
+1.  **Create and Start Linux VM**
+   Your manager has assigned you the task to create a Linux virtual machine and install a web server inside it, all using automation.
+    -  Create a new directory for your project.
   - Inside the directory, initialize a Vagrant project.
   - Configure the `Vagrantfile` to provision a Linux virtual machine (Ubuntu 20.04 or similar).
   - Configure the VM name, network ip etc.
   - Ensure the VM has at least `512MB` of RAM and `1 CPU`.
 
-2. **Install Apache Server and Deploy the Static Website:**
-  - Write a Bash script to install Apache on the VM.
-  - Ensure Apache is set to start on boot.
-  - Your script should check if there is directory `website`, Copy the provided static website files from your local machine to the Apache web root directory on the VM `(/var/www/html)`.
-  - Ensure the website is accessible via the VM’s IP address.
-  - Display neccessary log messages and time during provisioning
+2.  **Install Apache Server and Deploy the Static Website:**
+   -  Write a Bash script to install Apache on the VM.
+   -  Ensure Apache is set to start on boot.
+   -  Your script should check if there is directory `website`, Copy the provided static website files from your local machine to the Apache web root directory on the VM `(/var/www/html)`.
+   -  Ensure the website is accessible via the VM’s IP address.
+   -  Display neccessary log messages and time during provisioning
 
 3. **Prepare Website Files**
   - Download and unzip a website template [here](https://www.tooplate.com/view/2119-gymso-fitness)
