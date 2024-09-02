@@ -3,9 +3,10 @@
 
 ![Screenshot (85)](https://github.com/user-attachments/assets/821f16e8-2704-4e42-8fb6-b2b503fc8749)
 
-## Creating a folder where the repository will be cloned into, by with the following command
+## Creating a folder where the repository will be cloned into,  with the following command
 
 mkdir "folder name"
+mkdie "Assignment5"
 
 ### Clone the respository into your local machine; git clone "URL~your reposiroty"
 
